@@ -6464,10 +6464,14 @@ func awsAwsjson10_deserializeErrorConditionalCheckFailedException(response *smit
 	ringBuffer := smithyio.NewRingBuffer(buff[:])
 
 	body := io.TeeReader(errorBody, ringBuffer)
+	fmt.Printf("debug | body: %s\n", body)
+
 	decoder := json.NewDecoder(body)
 	decoder.UseNumber()
 	var shape interface{}
 	if err := decoder.Decode(&shape); err != nil && err != io.EOF {
+		fmt.Printf("debug | err decoder.Decode(&shape): %s\n", err)
+
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
@@ -6479,6 +6483,7 @@ func awsAwsjson10_deserializeErrorConditionalCheckFailedException(response *smit
 
 	output := &types.ConditionalCheckFailedException{}
 	err := awsAwsjson10_deserializeDocumentConditionalCheckFailedException(&output, shape)
+	fmt.Printf("debug | err: %s\n", err)
 
 	if err != nil {
 		var snapshot bytes.Buffer
