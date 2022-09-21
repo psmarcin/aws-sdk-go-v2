@@ -133,7 +133,7 @@ func (m *awsRestxml_deserializeOpBodyWithXmlName) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsRestxml_deserializeOpBodyWithXmlName, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -144,7 +144,7 @@ func (m *awsRestxml_deserializeOpBodyWithXmlName) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsRestxml_deserializeOpBodyWithXmlName2, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -681,7 +681,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMap) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body81, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -692,7 +692,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMap) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body82, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -815,7 +815,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMapWithXmlName) HandleDeserialize(c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body83, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -826,7 +826,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMapWithXmlName) HandleDeserialize(c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body84, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -949,7 +949,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMapWithXmlNamespace) HandleDeserial
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body85, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -960,7 +960,7 @@ func (m *awsRestxml_deserializeOpFlattenedXmlMapWithXmlNamespace) HandleDeserial
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body86, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1385,7 +1385,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithMemberXmlName) HandleDeserialize
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body87, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1396,7 +1396,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithMemberXmlName) HandleDeserialize
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body88, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1519,7 +1519,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithStructure) HandleDeserialize(ctx
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body89, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1530,7 +1530,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithStructure) HandleDeserialize(ctx
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body90, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1653,7 +1653,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlName) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body91, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1664,7 +1664,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlName) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body92, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1787,7 +1787,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlNamespace) HandleDeserialize(
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body93, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1798,7 +1798,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlNamespace) HandleDeserialize(
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body94, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1921,7 +1921,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlNamespaceAndPrefix) HandleDes
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body95, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -1932,7 +1932,7 @@ func (m *awsRestxml_deserializeOpHttpPayloadWithXmlNamespaceAndPrefix) HandleDes
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body96, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -2506,7 +2506,7 @@ func (m *awsRestxml_deserializeOpIgnoreQueryParamsInResponse) HandleDeserialize(
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body97, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -2517,7 +2517,7 @@ func (m *awsRestxml_deserializeOpIgnoreQueryParamsInResponse) HandleDeserialize(
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body98, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -2914,7 +2914,7 @@ func (m *awsRestxml_deserializeOpNestedXmlMaps) HandleDeserialize(ctx context.Co
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body99, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}

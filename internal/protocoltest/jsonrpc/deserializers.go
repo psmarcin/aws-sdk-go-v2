@@ -86,7 +86,7 @@ func awsAwsjson11_deserializeOpErrorEmptyOperation(response *smithyhttp.Response
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorEmptyOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -172,7 +172,7 @@ func awsAwsjson11_deserializeOpErrorEndpointOperation(response *smithyhttp.Respo
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorEndpointOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -258,7 +258,7 @@ func awsAwsjson11_deserializeOpErrorEndpointWithHostLabelOperation(response *smi
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorEndpointWithHostLabelOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -320,7 +320,7 @@ func (m *awsAwsjson11_deserializeOpGreetingWithErrors) HandleDeserialize(ctx con
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpGreetingWithErrors, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -331,7 +331,7 @@ func (m *awsAwsjson11_deserializeOpGreetingWithErrors) HandleDeserialize(ctx con
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpGreetingWithErrors, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -366,7 +366,7 @@ func awsAwsjson11_deserializeOpErrorGreetingWithErrors(response *smithyhttp.Resp
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorGreetingWithErrors, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -461,7 +461,7 @@ func awsAwsjson11_deserializeOpErrorHostWithPathOperation(response *smithyhttp.R
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorHostWithPathOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -523,7 +523,7 @@ func (m *awsAwsjson11_deserializeOpJsonEnums) HandleDeserialize(ctx context.Cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpJsonEnums, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -534,7 +534,7 @@ func (m *awsAwsjson11_deserializeOpJsonEnums) HandleDeserialize(ctx context.Cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpJsonEnums, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -569,7 +569,7 @@ func awsAwsjson11_deserializeOpErrorJsonEnums(response *smithyhttp.Response, met
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorJsonEnums, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -631,7 +631,7 @@ func (m *awsAwsjson11_deserializeOpJsonUnions) HandleDeserialize(ctx context.Con
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpJsonUnions, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -642,7 +642,7 @@ func (m *awsAwsjson11_deserializeOpJsonUnions) HandleDeserialize(ctx context.Con
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpDocumentJsonUnionsOutput, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -677,7 +677,7 @@ func awsAwsjson11_deserializeOpErrorJsonUnions(response *smithyhttp.Response, me
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorJsonUnions, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -739,7 +739,7 @@ func (m *awsAwsjson11_deserializeOpKitchenSinkOperation) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpKitchenSinkOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -750,7 +750,7 @@ func (m *awsAwsjson11_deserializeOpKitchenSinkOperation) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body30, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -785,7 +785,7 @@ func awsAwsjson11_deserializeOpErrorKitchenSinkOperation(response *smithyhttp.Re
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body31, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -853,7 +853,7 @@ func (m *awsAwsjson11_deserializeOpNullOperation) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpNullOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -864,7 +864,7 @@ func (m *awsAwsjson11_deserializeOpNullOperation) HandleDeserialize(ctx context.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpNullOperation2, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -899,7 +899,7 @@ func awsAwsjson11_deserializeOpErrorNullOperation(response *smithyhttp.Response,
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorNullOperation, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -961,7 +961,7 @@ func (m *awsAwsjson11_deserializeOpOperationWithOptionalInputOutput) HandleDeser
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpOperationWithOptionalInputOutput, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -972,7 +972,7 @@ func (m *awsAwsjson11_deserializeOpOperationWithOptionalInputOutput) HandleDeser
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpOperationWithOptionalInputOutput2, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -1007,7 +1007,7 @@ func awsAwsjson11_deserializeOpErrorOperationWithOptionalInputOutput(response *s
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorOperationWithOptionalInputOutput, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1069,7 +1069,7 @@ func (m *awsAwsjson11_deserializeOpPutAndGetInlineDocuments) HandleDeserialize(c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpPutAndGetInlineDocuments, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -1080,7 +1080,7 @@ func (m *awsAwsjson11_deserializeOpPutAndGetInlineDocuments) HandleDeserialize(c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpPutAndGetInlineDocuments2, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -1115,7 +1115,7 @@ func awsAwsjson11_deserializeOpErrorPutAndGetInlineDocuments(response *smithyhtt
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorPutAndGetInlineDocuments, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1177,7 +1177,7 @@ func (m *awsAwsjson11_deserializeOpSimpleScalarProperties) HandleDeserialize(ctx
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpSimpleScalarProperties, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -1188,7 +1188,7 @@ func (m *awsAwsjson11_deserializeOpSimpleScalarProperties) HandleDeserialize(ctx
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpSimpleScalarProperties2, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -1223,7 +1223,7 @@ func awsAwsjson11_deserializeOpErrorSimpleScalarProperties(response *smithyhttp.
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeOpErrorSimpleScalarProperties, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1260,7 +1260,7 @@ func awsAwsjson11_deserializeErrorComplexError(response *smithyhttp.Response, er
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeErrorComplexError, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1273,7 +1273,7 @@ func awsAwsjson11_deserializeErrorComplexError(response *smithyhttp.Response, er
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body awsAwsjson11_deserializeErrorComplexError, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1295,7 +1295,7 @@ func awsAwsjson11_deserializeErrorErrorWithMembers(response *smithyhttp.Response
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body32, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1308,7 +1308,7 @@ func awsAwsjson11_deserializeErrorErrorWithMembers(response *smithyhttp.Response
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body33, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1330,7 +1330,7 @@ func awsAwsjson11_deserializeErrorErrorWithoutMembers(response *smithyhttp.Respo
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body34, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1343,7 +1343,7 @@ func awsAwsjson11_deserializeErrorErrorWithoutMembers(response *smithyhttp.Respo
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body35, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1365,7 +1365,7 @@ func awsAwsjson11_deserializeErrorFooError(response *smithyhttp.Response, errorB
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body36, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1378,7 +1378,7 @@ func awsAwsjson11_deserializeErrorFooError(response *smithyhttp.Response, errorB
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body37, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1400,7 +1400,7 @@ func awsAwsjson11_deserializeErrorInvalidGreeting(response *smithyhttp.Response,
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body38, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err
@@ -1413,7 +1413,7 @@ func awsAwsjson11_deserializeErrorInvalidGreeting(response *smithyhttp.Response,
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body39, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return err

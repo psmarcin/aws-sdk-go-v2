@@ -63,7 +63,7 @@ func (m *awsEc2query_deserializeOpEmptyInputAndEmptyOutput) HandleDeserialize(ct
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body20, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -74,7 +74,7 @@ func (m *awsEc2query_deserializeOpEmptyInputAndEmptyOutput) HandleDeserialize(ct
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body21, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -290,7 +290,7 @@ func (m *awsEc2query_deserializeOpGreetingWithErrors) HandleDeserialize(ctx cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body22, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -301,7 +301,7 @@ func (m *awsEc2query_deserializeOpGreetingWithErrors) HandleDeserialize(ctx cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body23, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -455,7 +455,7 @@ func (m *awsEc2query_deserializeOpIgnoresWrappingXmlName) HandleDeserialize(ctx 
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body24, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -466,7 +466,7 @@ func (m *awsEc2query_deserializeOpIgnoresWrappingXmlName) HandleDeserialize(ctx 
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body25, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -614,7 +614,7 @@ func (m *awsEc2query_deserializeOpNoInputAndOutput) HandleDeserialize(ctx contex
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body26, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -625,7 +625,7 @@ func (m *awsEc2query_deserializeOpNoInputAndOutput) HandleDeserialize(ctx contex
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body27, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err
@@ -909,7 +909,7 @@ func (m *awsEc2query_deserializeOpRecursiveXmlShapes) HandleDeserialize(ctx cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body28, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -920,7 +920,7 @@ func (m *awsEc2query_deserializeOpRecursiveXmlShapes) HandleDeserialize(ctx cont
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		err = &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body29, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 		return out, metadata, err

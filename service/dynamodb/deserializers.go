@@ -6496,6 +6496,7 @@ func awsAwsjson10_deserializeErrorConditionalCheckFailedException(response *smit
 	}
 
 	errorBody.Seek(0, io.SeekStart)
+
 	return output
 }
 

@@ -64,7 +64,7 @@ func (m *awsRestxml_deserializeOpSimpleScalarProperties) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body100, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
@@ -75,7 +75,7 @@ func (m *awsRestxml_deserializeOpSimpleScalarProperties) HandleDeserialize(ctx c
 		var snapshot bytes.Buffer
 		io.Copy(&snapshot, ringBuffer)
 		return out, metadata, &smithy.DeserializationError{
-			Err:      fmt.Errorf("failed to decode response body, %w", err),
+			Err:      fmt.Errorf("failed to decode response body101, %w", err),
 			Snapshot: snapshot.Bytes(),
 		}
 	}
